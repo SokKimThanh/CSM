@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "jOx8/fcjzGA=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\thanh\\Downloads\\CSM\\CSM\\CSM_Web\\CSM_Web.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files\\DevExpress 22.2\\DevExtreme\\System\\DevExtreme\\Bin\\AspNetCore' doesn't exist.",
+      "libraryId": "DevExtreme.AspNet.Data"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "The local source 'C:\\Program Files\\DevExpress 22.2\\DevExtreme\\System\\DevExtreme\\Bin\\AspNetCore' doesn't exist.",
+      "libraryId": "DevExtreme.AspNet.Core"
+    }
+  ]
+}
