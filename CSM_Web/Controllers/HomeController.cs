@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CSM_Web.Controllers
@@ -14,7 +10,8 @@ namespace CSM_Web.Controllers
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error() {
+        public IActionResult Error()
+        {
             return View();
         }
     }
