@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\thanh\\Downloads\\CSM\\CSM\\CSM_Web\\CSM_Web.csproj": {}
+    "C:\\Tuan\\Project\\C#\\CSM_Web\\CSM_Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\thanh\\Downloads\\CSM\\CSM\\CSM_Web\\CSM_Web.csproj": {
+    "C:\\Tuan\\Project\\C#\\CSM_Web\\CSM_Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\thanh\\Downloads\\CSM\\CSM\\CSM_Web\\CSM_Web.csproj",
+        "projectUniqueName": "C:\\Tuan\\Project\\C#\\CSM_Web\\CSM_Web.csproj",
         "projectName": "CSM_Web",
-        "projectPath": "C:\\Users\\thanh\\Downloads\\CSM\\CSM\\CSM_Web\\CSM_Web.csproj",
-        "packagesPath": "C:\\Users\\thanh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\thanh\\Downloads\\CSM\\CSM\\CSM_Web\\obj\\",
+        "projectPath": "C:\\Tuan\\Project\\C#\\CSM_Web\\CSM_Web.csproj",
+        "packagesPath": "C:\\Users\\TuanT\\.nuget\\packages\\",
+        "outputPath": "C:\\Tuan\\Project\\C#\\CSM_Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages"
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\thanh\\Downloads\\CSM\\CSM\\NuGet.Config",
-          "C:\\Users\\thanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Tuan\\Project\\C#\\NuGet.Config",
+          "C:\\Users\\TuanT\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -30,7 +32,8 @@
           "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\DevExpress 22.2\\DevExtreme\\System\\DevExtreme\\Bin\\AspNetCore": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
