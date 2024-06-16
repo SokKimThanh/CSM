@@ -41,3 +41,4 @@ bld/
 msbuild.log
 msbuild.err
 msbuild.wrn
+/CSM_Data_Access/CSM_Data_Access.csproj
