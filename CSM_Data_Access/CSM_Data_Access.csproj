@@ -7,9 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+<<<<<<< HEAD
     <Folder Include="Controller\Cache\" />
     <Folder Include="Controller\DM\" />
     <Folder Include="Controller\Sys\" />
+=======
+    <Folder Include="Controllers\DM\" />
+    <Folder Include="Controllers\Cache\" />
+    <Folder Include="Controllers\Sys\" />
+>>>>>>> 8cfec4e2dc6707e6832cc79315f5049f144870d4
     <Folder Include="Entity\DM\" />
     <Folder Include="Entity\Sys\" />
   </ItemGroup>

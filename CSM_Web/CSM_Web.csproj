@@ -6,11 +6,25 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+<<<<<<< HEAD
   <ItemGroup>
     <PackageReference Include="EPPlus" Version="7.1.3" />
     <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.1" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
+=======
+    <ItemGroup>
+    <PackageReference Include="DevExtreme.AspNet.Data" Version="4.0.0" />
+    <PackageReference Include="DevExtreme.AspNet.Core" Version="22.2.3" />
+    <PackageReference Include="EPPlus" Version="7.1.3" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\CSM_Data_Access\CSM_Data_Access.csproj" />
+    </ItemGroup>
+>>>>>>> 8cfec4e2dc6707e6832cc79315f5049f144870d4
 
   <ItemGroup>
     <ProjectReference Include="..\CSM_Data_Access\CSM_Data_Access.csproj" />

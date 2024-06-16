@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\thanh\\Downloads\\CSM\\CSM_Web\\CSM_Web.csproj": {}
   },
   "projects": {
@@ -12,13 +13,31 @@
         "projectPath": "C:\\Users\\thanh\\Downloads\\CSM\\CSM_Data_Access\\CSM_Data_Access.csproj",
         "packagesPath": "C:\\Users\\thanh\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\thanh\\Downloads\\CSM\\CSM_Data_Access\\obj\\",
+=======
+    "C:\\Tuan\\Project\\C#\\CSM_Web\\CSM_Web.csproj": {}
+  },
+  "projects": {
+    "C:\\Tuan\\Project\\C#\\CSM_Data_Access\\CSM_Data_Access.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Tuan\\Project\\C#\\CSM_Data_Access\\CSM_Data_Access.csproj",
+        "projectName": "CSM_Data_Access",
+        "projectPath": "C:\\Tuan\\Project\\C#\\CSM_Data_Access\\CSM_Data_Access.csproj",
+        "packagesPath": "C:\\Users\\TuanT\\.nuget\\packages\\",
+        "outputPath": "C:\\Tuan\\Project\\C#\\CSM_Data_Access\\obj\\",
+>>>>>>> 8cfec4e2dc6707e6832cc79315f5049f144870d4
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\thanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Tuan\\Project\\C#\\NuGet.Config",
+          "C:\\Users\\TuanT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 8cfec4e2dc6707e6832cc79315f5049f144870d4
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -30,7 +49,8 @@
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -54,11 +74,104 @@
           "targetAlias": "net6.0",
           "dependencies": {
             "EPPlus": {
+<<<<<<< HEAD
+=======
               "target": "Package",
               "version": "[7.1.3, )"
             },
             "Microsoft.Data.SqlClient": {
               "target": "Package",
+              "version": "[5.2.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Tuan\\Project\\C#\\CSM_Web\\CSM_Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Tuan\\Project\\C#\\CSM_Web\\CSM_Web.csproj",
+        "projectName": "CSM_Web",
+        "projectPath": "C:\\Tuan\\Project\\C#\\CSM_Web\\CSM_Web.csproj",
+        "packagesPath": "C:\\Users\\TuanT\\.nuget\\packages\\",
+        "outputPath": "C:\\Tuan\\Project\\C#\\CSM_Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Tuan\\Project\\C#\\NuGet.Config",
+          "C:\\Users\\TuanT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\DevExpress 22.2\\DevExtreme\\System\\DevExtreme\\Bin\\AspNetCore": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Tuan\\Project\\C#\\CSM_Data_Access\\CSM_Data_Access.csproj": {
+                "projectPath": "C:\\Tuan\\Project\\C#\\CSM_Data_Access\\CSM_Data_Access.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "DevExtreme.AspNet.Core": {
+>>>>>>> 8cfec4e2dc6707e6832cc79315f5049f144870d4
+              "target": "Package",
+              "version": "[7.1.3, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+<<<<<<< HEAD
               "version": "[5.2.1, )"
             },
             "Newtonsoft.Json": {
@@ -142,6 +255,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+=======
+              "version": "[4.0.0, )"
+            },
+>>>>>>> 8cfec4e2dc6707e6832cc79315f5049f144870d4
             "EPPlus": {
               "target": "Package",
               "version": "[7.1.3, )"
