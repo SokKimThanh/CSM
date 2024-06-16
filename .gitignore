@@ -41,5 +41,5 @@ bld/
 msbuild.log
 msbuild.err
 msbuild.wrn
-/appsettings.json
-/appsettings.Development.json
+**/appsettings.json
+**/appsettings.Development.json
