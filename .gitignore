@@ -41,4 +41,9 @@ bld/
 msbuild.log
 msbuild.err
 msbuild.wrn
+<<<<<<< HEAD
 /.vs/CSM/v17/.futdcache.v2
+=======
+**/appsettings.json
+**/appsettings.Development.json
+>>>>>>> 2ce98e1997943e32ea3ca17fcf1ef90ac0b9a2d2
