@@ -12,14 +12,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSM_Web_Sys", "CSM_Web_Sys\CSM_Web_Sys.csproj", "{DBF11128-7995-440F-9DEB-9E014BA9CD4D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSM_Web_Sys", "CSM_Web_Sys\CSM_Web_Sys.csproj", "{DBF11128-7995-440F-9DEB-9E014BA9CD4D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSM_App_Android", "CSM_App_Android\CSM_App_Android.csproj", "{BB9E498C-F5A8-42CE-97CD-0E251CF51854}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items (2)", "Solution Items (2)", "{53A1F16A-53F1-4FD5-AF34-104529467BB7}"
-	ProjectSection(SolutionItems) = preProject
-		.editorconfig = .editorconfig
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSM_App_Android", "CSM_App_Android\CSM_App_Android.csproj", "{BB9E498C-F5A8-42CE-97CD-0E251CF51854}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

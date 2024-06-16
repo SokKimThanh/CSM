@@ -1,14 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\thanh\\Downloads\\CSM\\",
+  "WorkspaceRootPath": "C:\\Tuan\\Project\\C#\\CSM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BB9E498C-F5A8-42CE-97CD-0E251CF51854}|CSM_App_Android\\CSM_App_Android.csproj|c:\\users\\thanh\\downloads\\csm\\csm_app_android\\csm_app_android.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{BB9E498C-F5A8-42CE-97CD-0E251CF51854}|CSM_App_Android\\CSM_App_Android.csproj|solutionrelative:csm_app_android\\csm_app_android.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{BB9E498C-F5A8-42CE-97CD-0E251CF51854}|CSM_App_Android\\CSM_App_Android.csproj|c:\\tuan\\project\\c#\\csm\\csm_app_android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB9E498C-F5A8-42CE-97CD-0E251CF51854}|CSM_App_Android\\CSM_App_Android.csproj|solutionrelative:csm_app_android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB9E498C-F5A8-42CE-97CD-0E251CF51854}|CSM_App_Android\\CSM_App_Android.csproj|c:\\users\\thanh\\downloads\\csm\\csm_app_android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB9E498C-F5A8-42CE-97CD-0E251CF51854}|CSM_App_Android\\CSM_App_Android.csproj|solutionrelative:csm_app_android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BB9E498C-F5A8-42CE-97CD-0E251CF51854}|CSM_App_Android\\CSM_App_Android.csproj|c:\\tuan\\project\\c#\\csm\\csm_app_android\\resources\\layout\\activity_main.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}",
+      "RelativeMoniker": "D:0:0:{BB9E498C-F5A8-42CE-97CD-0E251CF51854}|CSM_App_Android\\CSM_App_Android.csproj|solutionrelative:csm_app_android\\resources\\layout\\activity_main.xml||{A4B51DF8-501B-45AD-A022-1A0D18A2B7B0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB9E498C-F5A8-42CE-97CD-0E251CF51854}|CSM_App_Android\\CSM_App_Android.csproj|c:\\tuan\\project\\c#\\csm\\csm_app_android\\resources\\values\\strings.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{BB9E498C-F5A8-42CE-97CD-0E251CF51854}|CSM_App_Android\\CSM_App_Android.csproj|solutionrelative:csm_app_android\\resources\\values\\strings.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2D1B794-BD1E-43C1-BE5F-D4B032D0EE80}|CSM_Web\\CSM_Web.csproj|c:\\tuan\\project\\c#\\csm\\csm_web\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F2D1B794-BD1E-43C1-BE5F-D4B032D0EE80}|CSM_Web\\CSM_Web.csproj|solutionrelative:csm_web\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2D1B794-BD1E-43C1-BE5F-D4B032D0EE80}|CSM_Web\\CSM_Web.csproj|c:\\tuan\\project\\c#\\csm\\csm_web\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F2D1B794-BD1E-43C1-BE5F-D4B032D0EE80}|CSM_Web\\CSM_Web.csproj|solutionrelative:csm_web\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2D1B794-BD1E-43C1-BE5F-D4B032D0EE80}|CSM_Web\\CSM_Web.csproj|c:\\tuan\\project\\c#\\csm\\csm_web\\pages\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F2D1B794-BD1E-43C1-BE5F-D4B032D0EE80}|CSM_Web\\CSM_Web.csproj|solutionrelative:csm_web\\pages\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2D1B794-BD1E-43C1-BE5F-D4B032D0EE80}|CSM_Web\\CSM_Web.csproj|c:\\tuan\\project\\c#\\csm\\csm_web\\pages\\_menu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F2D1B794-BD1E-43C1-BE5F-D4B032D0EE80}|CSM_Web\\CSM_Web.csproj|solutionrelative:csm_web\\pages\\_menu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2D1B794-BD1E-43C1-BE5F-D4B032D0EE80}|CSM_Web\\CSM_Web.csproj|c:\\tuan\\project\\c#\\csm\\csm_web\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F2D1B794-BD1E-43C1-BE5F-D4B032D0EE80}|CSM_Web\\CSM_Web.csproj|solutionrelative:csm_web\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBF11128-7995-440F-9DEB-9E014BA9CD4D}|CSM_Web_Sys\\CSM_Web_Sys.csproj|c:\\tuan\\project\\c#\\csm\\csm_web_sys\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DBF11128-7995-440F-9DEB-9E014BA9CD4D}|CSM_Web_Sys\\CSM_Web_Sys.csproj|solutionrelative:csm_web_sys\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,35 +46,142 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "strings.xml",
+              "DocumentMoniker": "C:\\Tuan\\Project\\C#\\CSM\\CSM_App_Android\\Resources\\values\\strings.xml",
+              "RelativeDocumentMoniker": "CSM_App_Android\\Resources\\values\\strings.xml",
+              "ToolTip": "C:\\Tuan\\Project\\C#\\CSM\\CSM_App_Android\\Resources\\values\\strings.xml",
+              "RelativeToolTip": "CSM_App_Android\\Resources\\values\\strings.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-06-15T17:29:36.144Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainActivity.cs",
-              "DocumentMoniker": "C:\\Users\\thanh\\Downloads\\CSM\\CSM_App_Android\\MainActivity.cs",
-              "RelativeDocumentMoniker": "CSM_App_Android\\MainActivity.cs",
-              "ToolTip": "C:\\Users\\thanh\\Downloads\\CSM\\CSM_App_Android\\MainActivity.cs",
-              "RelativeToolTip": "CSM_App_Android\\MainActivity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T20:23:34.081Z"
+              "Title": "activity_main.xml",
+              "DocumentMoniker": "C:\\Tuan\\Project\\C#\\CSM\\CSM_App_Android\\Resources\\layout\\activity_main.xml",
+              "RelativeDocumentMoniker": "CSM_App_Android\\Resources\\layout\\activity_main.xml",
+              "ToolTip": "C:\\Tuan\\Project\\C#\\CSM\\CSM_App_Android\\Resources\\layout\\activity_main.xml",
+              "RelativeToolTip": "CSM_App_Android\\Resources\\layout\\activity_main.xml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-06-15T17:26:16.302Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CSM_App_Android.csproj",
-              "DocumentMoniker": "C:\\Users\\thanh\\Downloads\\CSM\\CSM_App_Android\\CSM_App_Android.csproj",
-              "RelativeDocumentMoniker": "CSM_App_Android\\CSM_App_Android.csproj",
-              "ToolTip": "C:\\Users\\thanh\\Downloads\\CSM\\CSM_App_Android\\CSM_App_Android.csproj",
-              "RelativeToolTip": "CSM_App_Android\\CSM_App_Android.csproj",
+              "Title": "MainActivity.cs",
+              "DocumentMoniker": "C:\\Tuan\\Project\\C#\\CSM\\CSM_App_Android\\MainActivity.cs",
+              "RelativeDocumentMoniker": "CSM_App_Android\\MainActivity.cs",
+              "ToolTip": "C:\\Tuan\\Project\\C#\\CSM\\CSM_App_Android\\MainActivity.cs",
+              "RelativeToolTip": "CSM_App_Android\\MainActivity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T17:25:01.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Tuan\\Project\\C#\\CSM\\CSM_Web\\Shared\\MainLayout.razor",
+              "RelativeDocumentMoniker": "CSM_Web\\Shared\\MainLayout.razor",
+              "ToolTip": "C:\\Tuan\\Project\\C#\\CSM\\CSM_Web\\Shared\\MainLayout.razor",
+              "RelativeToolTip": "CSM_Web\\Shared\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T17:22:53.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Tuan\\Project\\C#\\CSM\\CSM_Web\\Pages\\Error.cshtml",
+              "RelativeDocumentMoniker": "CSM_Web\\Pages\\Error.cshtml",
+              "ToolTip": "C:\\Tuan\\Project\\C#\\CSM\\CSM_Web\\Pages\\Error.cshtml",
+              "RelativeToolTip": "CSM_Web\\Pages\\Error.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-15T20:22:40.317Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T17:22:38.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Tuan\\Project\\C#\\CSM\\CSM_Web\\Pages\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CSM_Web\\Pages\\_Layout.cshtml",
+              "ToolTip": "C:\\Tuan\\Project\\C#\\CSM\\CSM_Web\\Pages\\_Layout.cshtml",
+              "RelativeToolTip": "CSM_Web\\Pages\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T17:22:35.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Menu.cshtml",
+              "DocumentMoniker": "C:\\Tuan\\Project\\C#\\CSM\\CSM_Web\\Pages\\_Menu.cshtml",
+              "RelativeDocumentMoniker": "CSM_Web\\Pages\\_Menu.cshtml",
+              "ToolTip": "C:\\Tuan\\Project\\C#\\CSM\\CSM_Web\\Pages\\_Menu.cshtml",
+              "RelativeToolTip": "CSM_Web\\Pages\\_Menu.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T17:22:33.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Host.cshtml",
+              "DocumentMoniker": "C:\\Tuan\\Project\\C#\\CSM\\CSM_Web\\Pages\\_Host.cshtml",
+              "RelativeDocumentMoniker": "CSM_Web\\Pages\\_Host.cshtml",
+              "ToolTip": "C:\\Tuan\\Project\\C#\\CSM\\CSM_Web\\Pages\\_Host.cshtml",
+              "RelativeToolTip": "CSM_Web\\Pages\\_Host.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T17:22:31.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Tuan\\Project\\C#\\CSM\\CSM_Web_Sys\\_Imports.razor",
+              "RelativeDocumentMoniker": "CSM_Web_Sys\\_Imports.razor",
+              "ToolTip": "C:\\Tuan\\Project\\C#\\CSM\\CSM_Web_Sys\\_Imports.razor",
+              "RelativeToolTip": "CSM_Web_Sys\\_Imports.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-15T17:20:26.235Z",
               "EditorCaption": ""
             }
           ]

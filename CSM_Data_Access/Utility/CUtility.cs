@@ -36,13 +36,8 @@ namespace CSM_Data_Access.Utility
 
         public static DateTime? Convert_To_DateTime(object p_objData)
         {
-<<<<<<< HEAD
             if (p_objData != DBNull.Value && p_objData != null)
                 return Convert_To_DateTime(p_objData, CConfig.Short_Day_Format_String);
-=======
-            if (p_objData != System.DBNull.Value && p_objData != null)
-                return Convert.ToDateTime(p_objData, CultureInfo.InvariantCulture);
->>>>>>> 8cfec4e2dc6707e6832cc79315f5049f144870d4
             else
                 return CConst.DTM_VALUE_NULL;
         }

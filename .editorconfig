@@ -1,40 +1,22 @@
 ﻿[*.cs]
 
-<<<<<<< HEAD
 # CS8600: Converting null literal or possible null value to non-nullable type.
 dotnet_diagnostic.CS8600.severity = none
 
 # Default severity for analyzer diagnostics with category 'Usage'
 dotnet_analyzer_diagnostic.category-Usage.severity = none
 
-=======
->>>>>>> 8cfec4e2dc6707e6832cc79315f5049f144870d4
 # CS8603: Possible null reference return.
 dotnet_diagnostic.CS8603.severity = none
 
 # CS8629: Nullable value type may be null.
 dotnet_diagnostic.CS8629.severity = none
 
-<<<<<<< HEAD
 # CS8618: Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
 dotnet_diagnostic.CS8618.severity = none
 
 # SYSLIB0021: Type or member is obsolete
 dotnet_diagnostic.SYSLIB0021.severity = none
-=======
-# CS8600: Converting null literal or possible null value to non-nullable type.
-dotnet_diagnostic.CS8600.severity = none
-
-# SYSLIB0021: Type or member is obsolete
-dotnet_diagnostic.SYSLIB0021.severity = none
-
-# CS8618: Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
-dotnet_diagnostic.CS8618.severity = none
-
-# CA2200: Rethrow to preserve stack details
-dotnet_diagnostic.CA2200.severity = none
-csharp_indent_labels = one_less_than_current
->>>>>>> 8cfec4e2dc6707e6832cc79315f5049f144870d4
 csharp_using_directive_placement = outside_namespace:silent
 csharp_prefer_simple_using_statement = true:suggestion
 csharp_prefer_braces = true:silent
@@ -47,15 +29,11 @@ csharp_style_expression_bodied_constructors = false:silent
 csharp_style_expression_bodied_operators = false:silent
 csharp_style_expression_bodied_properties = true:silent
 csharp_style_expression_bodied_indexers = true:silent
-<<<<<<< HEAD
 csharp_indent_labels = one_less_than_current
 csharp_style_expression_bodied_accessors = true:silent
 
 # CS8601: Possible null reference assignment.
 dotnet_diagnostic.CS8601.severity = none
-=======
-csharp_style_expression_bodied_accessors = true:silent
->>>>>>> 8cfec4e2dc6707e6832cc79315f5049f144870d4
 csharp_style_expression_bodied_lambdas = true:silent
 
 [*.{cs,vb}]
@@ -105,15 +83,6 @@ dotnet_naming_style.pascal_case.required_prefix =
 dotnet_naming_style.pascal_case.required_suffix = 
 dotnet_naming_style.pascal_case.word_separator = 
 dotnet_naming_style.pascal_case.capitalization = pascal_case
-<<<<<<< HEAD
-=======
-
-# Default severity for analyzer diagnostics with category 'Performance'
-dotnet_analyzer_diagnostic.category-Performance.severity = none
-
-# Default severity for analyzer diagnostics with category 'Style'
-dotnet_analyzer_diagnostic.category-Style.severity = none
->>>>>>> 8cfec4e2dc6707e6832cc79315f5049f144870d4
 dotnet_style_operator_placement_when_wrapping = beginning_of_line
 tab_width = 4
 indent_size = 4
