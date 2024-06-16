@@ -13,7 +13,7 @@ nupkg/
 
 # Visual Studio
 .vs/
-
+.vs/CSM/
 # Fleet
 .fleet/
 
@@ -41,5 +41,8 @@ bld/
 msbuild.log
 msbuild.err
 msbuild.wrn
+
+/.vs/CSM/v17/.futdcache.v2
+
 **/appsettings.json
 **/appsettings.Development.json
