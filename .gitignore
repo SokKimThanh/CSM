@@ -41,4 +41,5 @@ bld/
 msbuild.log
 msbuild.err
 msbuild.wrn
-/CSM_Data_Access/CSM_Data_Access.csproj
+/CSM_Web/appsettings.json
+/CSM_Web/appsettings.Development.json
