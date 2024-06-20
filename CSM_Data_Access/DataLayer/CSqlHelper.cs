@@ -34,9 +34,8 @@ namespace CSM_Data_Access.DataLayer
         /// <param name="p_arrParams"></param>
         /// <returns></returns>
         /// <exception cref="Exception"></exception>
-        public static DataTable Fill_Data_Table(SqlConnection p_conn, SqlTransaction p_trans, string p_strStored_Name, params object[] p_arrParams)
+        public static void Fill_Data_Table(SqlConnection p_conn, SqlTransaction p_trans, DataTable p_dt, string p_strStored_Name, params object[] p_arrParams)
         {
-            DataTable v_dt = new();
 
             SqlCommand v_command = new SqlCommand();
             v_command.CommandType = CommandType.StoredProcedure;
@@ -62,9 +61,7 @@ namespace CSM_Data_Access.DataLayer
             }
 
             SqlDataAdapter v_da = new(v_command);
-            v_da.Fill(v_dt);
-
-            return v_dt;
+            v_da.Fill(p_dt);
         }
 
         /// <summary>
@@ -74,9 +71,9 @@ namespace CSM_Data_Access.DataLayer
         /// <param name="p_strStored_Name"></param>
         /// <param name="p_arrParams"></param>
         /// <returns></returns>
-        public static DataTable Fill_Data_Table(string p_strConnection_String, string p_strStored_Name, params object[] p_arrParams)
+        public static void Fill_Data_Table(string p_strConnection_String, DataTable p_dt, string p_strStored_Name, params object[] p_arrParams)
         {
-            DataTable v_dt = new();
+
             SqlConnection v_conn = null;
             SqlTransaction v_trans = null;
 
@@ -88,7 +85,7 @@ namespace CSM_Data_Access.DataLayer
                 v_conn.Open();
                 v_trans = v_conn.BeginTransaction();
 
-                v_dt = Fill_Data_Table(v_conn, v_trans, p_strStored_Name, p_arrParams);
+                Fill_Data_Table(v_conn, v_trans, p_dt, p_strStored_Name, p_arrParams);
 
                 v_trans.Commit();
             }
@@ -112,7 +109,6 @@ namespace CSM_Data_Access.DataLayer
                     v_conn.Close();
             }
 
-            return v_dt;
         }
 
         /// <summary>

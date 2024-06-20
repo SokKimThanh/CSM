@@ -3,7 +3,7 @@
     public class CConfig
     {
         //Thông tin chuỗi kết nối
-        public static string CSM_Data_Conn_String = CConst.STR_VALUE_NULL;
+        public static string CSM_Cinema_DB_Conn_String = CConst.STR_VALUE_NULL;
 
         //Thông tin sản phẩm
         public static string Product_Name = CConst.STR_VALUE_NULL;
