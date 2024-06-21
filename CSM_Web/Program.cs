@@ -1,4 +1,6 @@
-﻿using CSM_Data_Access.Utility;
+﻿using CSM_Common.Common;
+using CSM_Data_Access.Cache.Sys;
+using CSM_Data_Access.Utility;
 using CSM_Web.Thread;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,7 +10,7 @@ builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 
 // Connection
-CConfig.CSM_Data_Conn_String = builder.Configuration.GetConnectionString("CSM_Data_Conn_String");
+CConfig.CSM_Cinema_DB_Conn_String = builder.Configuration.GetConnectionString("CSM_Cinema_DB_Conn_String");
 
 //Định dạng ngày tháng
 CConfig.Short_Day_Format_String = builder.Configuration.GetValue<string>("Short_Day_Format_String");
@@ -34,8 +36,13 @@ CConfig.Email_From = builder.Configuration.GetValue<string>("Email_From");
 
 //Các luồng chạy ngầm
 builder.Services.AddHostedService<CCache_Timer_Service>();
+builder.Services.AddHostedService<CTheard_1_Service>();
 
+//Các biến common cần set lại mặc định nếu cần
+CCache_Common.Is_Load_Cache_Completed = false;
 
+//Tại đây load cache sys
+CCache_Sys_Thanh_Vien.Load_Thanh_Vien();
 
 var app = builder.Build();
 

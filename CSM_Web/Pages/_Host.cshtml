@@ -4,7 +4,14 @@
 
 <!--Load layout-->
 @{
-    Layout = "_Layout";
+    var routeUrl = "";
+    if (ViewContext.RouteData.Values.ContainsKey("path"))
+        routeUrl = ViewContext.RouteData.Values["path"].ToString().ToLower();
+
+    if (routeUrl.EndsWith("login"))
+        Layout = "_Blank_Layout";
+    else
+        Layout = "_Layout";
 }
 
 <component type="typeof(App)" render-mode="ServerPrerendered" />
