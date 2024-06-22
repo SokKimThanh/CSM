@@ -21,13 +21,6 @@
             padding: 2px 16px;
         }
 
-        .container img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            border-radius: 10px;
-        }
-
         .center-parent {
             position: absolute;
             top: 50%;
@@ -44,29 +37,30 @@
             transition: 0.3s;
             border-radius: 10px;
             overflow: hidden;
-            width: 879px;
-            height: 491px;
         }
 
         .card:hover {
             box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
         }
 
-        .btn {
-            min-width: 346px;
-        }
-
+        /* Add style button*/
         .btn-outline-light:hover {
             border: 1px solid #44CCCB;
             background: #FAFF00;
             box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        }
 
+        /* Add style active button */
+        .btn-outline-light.activated {
+            border: 1px solid #44CCCB;
+            background: #FAFF00;
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
         }
 
         .btn-outline-light {
             border: 1px solid #999;
             border-radius: 7.5px;
-            padding: 5px 16px 5px 16px
+            min-width: 346px;
         }
 
         #delayCard {
@@ -147,31 +141,131 @@
         #imgHoverSignUp {
             width: 0;
         }
+
+        /* hiding login card, signup card*/
+        #delayLoginCard,
+        #delaySignUpCard {
+            display: none;
+        }
+
+
+        /* Mặc định cho màn hình desktop */
+        .card {
+            height: 491px;
+
+        }
+
+        #btnLogin,
+        #btnSignUp {
+            margin-right: 16px;
+            margin-left: 16px;
+            margin-bottom: 1rem;
+
+        }
+
+        /* Dành cho màn hình máy tính bảng */
+        @media only screen and (max-width: 768px) {
+            .card {
+                height: 80%;
+            }
+
+        }
+
+        /* Dành cho màn hình điện thoại di động */
+        @media only screen and (max-width: 480px) {
+
+            /* hoạt cảnh chuyển mờ dần khi ở màn hình điện thoại */
+            .card {
+                height: 80%;
+                overflow-y: auto;
+                background: rgba(255, 255, 255, 90%);
+            }
+
+            #circleBottomLeft {
+                width: 100px;
+                height: 100px;
+            }
+
+            #circle_bottom_outside_left {
+
+                width: 222px;
+                height: 222px;
+            }
+
+            #canhchim_top_right_conner {
+
+                width: 100px;
+                height: 100px;
+            }
+
+            #canhchim_top_right_outside {
+
+                width: 200;
+                height: 200px;
+            }
+        }
     </style>
 </head>
 
 <body>
     <section id="loginSection">
         <div class="container-fluid">
-            <div id="delayCard" class="card center-parent">
-                <!-- add logo -->
-                <img id="delayLogo" src="./img/csmLogoLight.svg" alt="csmLightLogo.png">
-                <!-- Group button -->
-                <div id="delayChooseButton" class="mb-4" role="group">
-                    <div class="mb-4">
-                        <button id="btnLogin" class="btn btn-outline-light me-4">
-                            <img src="./img/boy 1.svg" alt="boy1">
-                            <img id="imgLogin" src="./img/Login.svg" alt="login">
-                            <img id="imgHoverLogin" src="./img/LoginDam.svg" alt="boy_hover">
-                        </button>
-                        <button id="btnSignUp" class="btn btn-outline-light">
-                            <img src="./img/new 1.svg" alt="new1">
-                            <img id="imgSignUp" src="./img/Sign Up.svg" alt="sign_up">
-                            <img id="imgHoverSignUp" src="./img/Sign UpDam.svg" alt="sign_up">
-                        </button>
+            <div class="row">
+                <div id="delayCard" class="card center-parent col-lg-8 col-md-8 col-sm-8">
+                    <!-- add logo -->
+                    <img id="delayLogo" class="img-fluid" src="./img/csmLogoLight.svg" alt="csmLightLogo.png">
+                    <!-- add buttons -->
+                    <div id="delayChooseButton">
+                        <div class="mb-4 text-center">
+                            <button id="btnLogin" class="btn btn-outline-light">
+                                <img class="img-fluid" src="./img/boy1.svg" alt="boy1">
+                                <img class="img-fluid" id="imgLogin" src="./img/Login.svg" alt="login">
+                                <img class="img-fluid" id="imgHoverLogin" src="./img/LoginDam.svg" alt="boy_hover">
+                            </button>
+                            <button id="btnSignUp" class="btn btn-outline-light">
+                                <img class="img-fluid" src="./img/new1.svg" alt="new1">
+                                <img class="img-fluid" id="imgSignUp" src="./img/SignUp.svg" alt="sign_up">
+                                <img class="img-fluid" id="imgHoverSignUp" src="./img/SignUpDam.svg" alt="sign_up">
+                            </button>
+                        </div>
+                        <div class="text-center">
+                            <a href="#">Tham gia với tư cách khách</a>
+                        </div>
                     </div>
-                    <div class="text-center">
-                        <a href="#">Tham gia với tư cách khách</a>
+                    <div id="delayLoginCard">
+                        <form class="form-in" action="" method="post">
+                            <div class="mb-3">
+                                <label for="username" class="form-label">User name</label>
+                                <input type="text" class="form-control" name="username" id="username">
+                            </div>
+                            <div class="mb-3">
+                                <label for="password" class="form-label">Password</label>
+                                <input type="password" class="form-control" name="password" id="password">
+                            </div>
+                            <button class="btn btn-outline-light mb-3" type="submit">
+                                <img height="32" width="32" src="./img/boy1.svg" alt="boy1">
+                            </button>
+                            <div class="alert alert-primary text-end" role="alert">
+                                <a href="#" class="alert-link">Forgot password</a>
+                            </div>
+
+
+                        </form>
+                    </div>
+                    <div id="delaySignUpCard">
+                        <form class="form-in" action="" method="post">
+                            <div class="mb-3">
+                                <label for="username" class="form-label">User name</label>
+                                <input type="text" class="form-control" name="username" id="username">
+                            </div>
+                            <div class="mb-3">
+                                <label for="password" class="form-label">Password</label>
+                                <input type="password" class="form-control" name="password" id="password">
+                            </div>
+                            <button id="btnSignUpForm" class="btn btn-outline-light">
+                                <img height="32" width="32" src="./img/new1.svg" alt="new1">
+                            </button>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -187,11 +281,19 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
     <script>
+        // chờ cho mấy cái dom load xong thì tới animation
         document.addEventListener("DOMContentLoaded", function () {
+            // khai báo biến
             const delayCard = document.getElementById("delayCard");
             const delayLogo = document.getElementById("delayLogo");
             const delayChooseButton = document.getElementById("delayChooseButton");
+            // khai bao login sign up
+            const btnLogin = document.getElementById("btnLogin");
+            const btnSignUp = document.getElementById("btnSignUp");
+            const delayLoginCard = document.getElementById("delayLoginCard");
+            const delaySignUpCard = document.getElementById("delaySignUpCard");
 
+            // Đoạn quảng cáo thương hiệu phần mềm 
             delayCard.addEventListener("animationend", () => {
                 delayLogo.style.display = "none";
                 delayChooseButton.style.display = "block";
@@ -203,7 +305,33 @@
             delayChooseButton.children[0].addEventListener("hover", () => {
                 console.log("hover");
             })
+            // đoạn này cho phép người dùng chọn đăng nhập hoặc đăng ký hoặc bỏ qua 
+            // thêm sự kiện click cho login và signup
+            btnLogin.addEventListener("click", () => {
+                delayCard.style.paddingTop = "16px";
+                btnLogin.classList.add('activated');
+                btnSignUp.classList.remove('activated');
+                delayLoginCard.style.display = "block";
+                delayLoginCard.style.animationName = "delayElement";
+                delayLoginCard.style.animationDuration = "500ms";
+                delayLoginCard.style.animationIterationCount = "1";
+                delayLoginCard.style.animationTimingFunction = "ease-in-out";
+                delaySignUpCard.style.display = "none";
+            })
+            btnSignUp.addEventListener("click", () => {
+                delayCard.style.paddingTop = "16px";
+                btnLogin.classList.remove('activated');
+                btnSignUp.classList.add('activated');
+                delaySignUpCard.style.display = "block";
+                delaySignUpCard.style.animationName = "delayElement";
+                delaySignUpCard.style.animationDuration = "500ms";
+                delaySignUpCard.style.animationIterationCount = "1";
+                delaySignUpCard.style.animationTimingFunction = "ease-in-out";
+                delayLoginCard.style.display = "none";
+            })
         });
+
+
     </script>
 </body>
 
