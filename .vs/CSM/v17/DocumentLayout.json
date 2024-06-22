@@ -1,7 +1,28 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Tuan\\Project\\C#\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F2D1B794-BD1E-43C1-BE5F-D4B032D0EE80}|CSM_Web\\CSM_Web.csproj|c:\\tuan\\project\\c#\\csm_web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2D1B794-BD1E-43C1-BE5F-D4B032D0EE80}|CSM_Web\\CSM_Web.csproj|solutionrelative:csm_web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2D1B794-BD1E-43C1-BE5F-D4B032D0EE80}|CSM_Web\\CSM_Web.csproj|c:\\tuan\\project\\c#\\csm_web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F2D1B794-BD1E-43C1-BE5F-D4B032D0EE80}|CSM_Web\\CSM_Web.csproj|solutionrelative:csm_web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2D1B794-BD1E-43C1-BE5F-D4B032D0EE80}|CSM_Web\\CSM_Web.csproj|c:\\tuan\\project\\c#\\csm_web\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F2D1B794-BD1E-43C1-BE5F-D4B032D0EE80}|CSM_Web\\CSM_Web.csproj|solutionrelative:csm_web\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBD4DEAE-8345-433C-9384-8C5FEECFBFC6}|CSM_Data_Access\\CSM_Data_Access.csproj|c:\\tuan\\project\\c#\\csm_data_access\\controllers\\sys\\csys_thanh_vien_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBD4DEAE-8345-433C-9384-8C5FEECFBFC6}|CSM_Data_Access\\CSM_Data_Access.csproj|solutionrelative:csm_data_access\\controllers\\sys\\csys_thanh_vien_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2D1B794-BD1E-43C1-BE5F-D4B032D0EE80}|CSM_Web\\CSM_Web.csproj|c:\\tuan\\project\\c#\\csm_web\\sys_ui\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F2D1B794-BD1E-43C1-BE5F-D4B032D0EE80}|CSM_Web\\CSM_Web.csproj|solutionrelative:csm_web\\sys_ui\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,6 +51,75 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Tuan\\Project\\C#\\CSM_Web\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "CSM_Web\\appsettings.Development.json",
+              "ToolTip": "C:\\Tuan\\Project\\C#\\CSM_Web\\appsettings.Development.json",
+              "RelativeToolTip": "CSM_Web\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-22T12:49:00.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Tuan\\Project\\C#\\CSM_Web\\appsettings.json",
+              "RelativeDocumentMoniker": "CSM_Web\\appsettings.json",
+              "ToolTip": "C:\\Tuan\\Project\\C#\\CSM_Web\\appsettings.json",
+              "RelativeToolTip": "CSM_Web\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-22T12:48:03.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CSys_Thanh_Vien_Controller.cs",
+              "DocumentMoniker": "C:\\Tuan\\Project\\C#\\CSM_Data_Access\\Controllers\\Sys\\CSys_Thanh_Vien_Controller.cs",
+              "RelativeDocumentMoniker": "CSM_Data_Access\\Controllers\\Sys\\CSys_Thanh_Vien_Controller.cs",
+              "ToolTip": "C:\\Tuan\\Project\\C#\\CSM_Data_Access\\Controllers\\Sys\\CSys_Thanh_Vien_Controller.cs",
+              "RelativeToolTip": "CSM_Data_Access\\Controllers\\Sys\\CSys_Thanh_Vien_Controller.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAvwC0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T12:46:57.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Tuan\\Project\\C#\\CSM_Web\\Program.cs",
+              "RelativeDocumentMoniker": "CSM_Web\\Program.cs",
+              "ToolTip": "C:\\Tuan\\Project\\C#\\CSM_Web\\Program.cs",
+              "RelativeToolTip": "CSM_Web\\Program.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAvwCwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T12:45:30.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Tuan\\Project\\C#\\CSM_Web\\Sys_UI\\Login.razor",
+              "RelativeDocumentMoniker": "CSM_Web\\Sys_UI\\Login.razor",
+              "ToolTip": "C:\\Tuan\\Project\\C#\\CSM_Web\\Sys_UI\\Login.razor",
+              "RelativeToolTip": "CSM_Web\\Sys_UI\\Login.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-22T12:44:05.489Z",
+              "EditorCaption": ""
             }
           ]
         }
