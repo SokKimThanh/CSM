@@ -4,22 +4,32 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <RuntimeIdentifiers>win10-x64</RuntimeIdentifiers>
+    <ContainerRuntimeIdentifier>win10-x64</ContainerRuntimeIdentifier>
+    <ContainerBaseImage>mcr.microsoft.com/dotnet/aspnet:6.0</ContainerBaseImage>
+    <EnableSdkContainerDebugging>True</EnableSdkContainerDebugging>
+    <UserSecretsId>5b789a9b-d99a-4430-b404-5d5b82a35727</UserSecretsId>
+    <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="EPPlus" Version="7.2.0" />
-    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="6.0.29" />
+    <ContainerEnvironmentVariable Include="ASPNETCORE_HTTPS_PORTS">
+      <Value>443</Value>
+    </ContainerEnvironmentVariable>
+    <ContainerPort Include="443" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EPPlus" Version="7.2.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Components" Version="6.0.32" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="6.0.32" />
     <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.1" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CSM_Common\CSM_Common.csproj" />
     <ProjectReference Include="..\CSM_Data_Access\CSM_Data_Access.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Sys_UI\Components\" />
+    <ProjectReference Include="..\CSM_Web_Common\CSM_Web_Common.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,6 +1,4 @@
-﻿
-
-namespace CSM_Data_Access.DataLayer
+﻿namespace CSM_Data_Access.DataLayer
 {
     public class CSqlHelper
     {

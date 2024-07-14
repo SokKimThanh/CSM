@@ -1,0 +1,1 @@
+{"importBase":"import","nativeBase":"native","name":"animations","deps":["main"],"uuids":["5bpquFsWRHnJPosMyv/XLH"],"paths":{"0":["loading_text",0]},"scenes":{},"packs":{},"versions":{"import":[],"native":[]},"redirect":[0,"0",0,"0"],"debug":false,"extensionMap":{".cconb":["0"]},"hasPreloadScript":true,"dependencyRelationships":{},"types":["cc.AnimationClip"]}

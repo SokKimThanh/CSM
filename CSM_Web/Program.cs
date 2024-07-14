@@ -1,7 +1,8 @@
-﻿using CSM_Common.Common;
+﻿
 using CSM_Data_Access.Cache.Sys;
 using CSM_Data_Access.Utility;
 using CSM_Web.Thread;
+using CSM_Web_Common.Common;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -36,7 +37,7 @@ CConfig.Email_From = builder.Configuration.GetValue<string>("Email_From");
 
 //Các luồng chạy ngầm
 builder.Services.AddHostedService<CCache_Timer_Service>();
-builder.Services.AddHostedService<CTheard_1_Service>();
+builder.Services.AddHostedService<CBackground_Service_1>();
 
 //Các biến common cần set lại mặc định nếu cần
 CCache_Common.Is_Load_Cache_Completed = false;

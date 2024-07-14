@@ -151,7 +151,7 @@ namespace CSM_Data_Access.Cache.Sys
         public CSys_Thanh_Vien Get_Data_By_ID(long p_lngAuto_ID)
         {
             CSys_Thanh_Vien v_objRes = null;
-            if (m_dicID.ContainsKey(p_lngAuto_ID) == true)        
+            if (m_dicID.ContainsKey(p_lngAuto_ID) == true)
                 v_objRes = m_dicID[p_lngAuto_ID];
 
             return v_objRes;

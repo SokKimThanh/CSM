@@ -1,12 +1,12 @@
 ﻿@page "/"
 @namespace CSM_Web.Pages
-@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@using CSM_Data_Access.Utility
 
-<!--Load layout-->
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 @{
     var routeUrl = "";
     if (ViewContext.RouteData.Values.ContainsKey("path"))
-        routeUrl = ViewContext.RouteData.Values["path"].ToString().ToLower();
+        routeUrl = CUtility.Convert_To_String(ViewContext.RouteData.Values["path"]).ToLower();
 
     if (routeUrl.EndsWith("login"))
         Layout = "_Blank_Layout";

@@ -1,4 +1,6 @@
-﻿namespace CSM_Data_Access.Utility
+﻿using System.Runtime.InteropServices;
+
+namespace CSM_Data_Access.Utility
 {
     public class CLogger
     {

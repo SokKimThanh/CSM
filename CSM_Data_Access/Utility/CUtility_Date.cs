@@ -49,7 +49,7 @@
         /// </summary>
         /// <param name="p_dtmDate"></param>
         /// <returns></returns>
-        public static DateTime Convert_To_Cuoi_Ngay(DateTime p_dtmDate)
+        public static DateTime? Convert_To_Cuoi_Ngay(DateTime p_dtmDate)
         {
             DateTime v_dtmRes = p_dtmDate;
 

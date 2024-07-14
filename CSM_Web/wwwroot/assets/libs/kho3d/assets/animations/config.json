@@ -1,0 +1,37 @@
+{
+    "importBase": "import",
+    "nativeBase": "native",
+    "name": "animations",
+    "deps": [
+        "main"
+    ],
+    "uuids": [
+        "5ba6ab85-b164-479c-93e8-b0ccaffd72c7"
+    ],
+    "paths": {
+        "5ba6ab85-b164-479c-93e8-b0ccaffd72c7": [
+            "loading_text",
+            "cc.AnimationClip"
+        ]
+    },
+    "scenes": {},
+    "packs": {},
+    "versions": {
+        "import": [],
+        "native": []
+    },
+    "redirect": [
+        "5ba6ab85-b164-479c-93e8-b0ccaffd72c7",
+        "0",
+        "5ba6ab85-b164-479c-93e8-b0ccaffd72c7",
+        "0"
+    ],
+    "debug": true,
+    "extensionMap": {
+        ".cconb": [
+            "5ba6ab85-b164-479c-93e8-b0ccaffd72c7"
+        ]
+    },
+    "hasPreloadScript": true,
+    "dependencyRelationships": {}
+}

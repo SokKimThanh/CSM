@@ -1,4 +1,6 @@
 ﻿
+using System.Runtime.CompilerServices;
+
 namespace CSM_Data_Access.Utility
 {
     public class CLog

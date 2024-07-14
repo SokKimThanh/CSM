@@ -1,4 +1,5 @@
 ﻿using System.Net.Mail;
+using System.Runtime.CompilerServices;
 
 
 namespace CSM_Data_Access.Utility
@@ -454,5 +455,7 @@ namespace CSM_Data_Access.Utility
             return Send_Mail_Use_SMTP(CConfig.Email_From, p_strTo, p_strSubject, p_strMessage, CConfig.Smtp_Host, CConfig.Smtp_UseDefaultCredentials, CConfig.Smtp_Port,
                 CConfig.Email_From, CConfig.Smtp_Pass, CConfig.Smtp_EnableSsl, p_strAttach);
         }
+
+
     }
 }
