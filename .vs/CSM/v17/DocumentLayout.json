@@ -1,10 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Tuan\\Project\\C#\\CSM\\",
+  "WorkspaceRootPath": "C:\\Tuan\\C\u00E1 nh\u00E2n\\Project\\CSM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B150DE93-37A6-466D-82DD-7E4DD001D467}|CSM_Web\\CSM_Web.csproj|c:\\tuan\\project\\c#\\csm\\csm_web\\pages\\menu_top.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{B150DE93-37A6-466D-82DD-7E4DD001D467}|CSM_Web\\CSM_Web.csproj|c:\\tuan\\c\u00E1 nh\u00E2n\\project\\csm\\csm_web\\pages\\menu_bottom.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B150DE93-37A6-466D-82DD-7E4DD001D467}|CSM_Web\\CSM_Web.csproj|solutionrelative:csm_web\\pages\\menu_bottom.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B150DE93-37A6-466D-82DD-7E4DD001D467}|CSM_Web\\CSM_Web.csproj|c:\\tuan\\c\u00E1 nh\u00E2n\\project\\csm\\csm_web\\pages\\menu_top.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B150DE93-37A6-466D-82DD-7E4DD001D467}|CSM_Web\\CSM_Web.csproj|solutionrelative:csm_web\\pages\\menu_top.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B150DE93-37A6-466D-82DD-7E4DD001D467}|CSM_Web\\CSM_Web.csproj|c:\\tuan\\c\u00E1 nh\u00E2n\\project\\csm\\csm_web\\pages\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B150DE93-37A6-466D-82DD-7E4DD001D467}|CSM_Web\\CSM_Web.csproj|solutionrelative:csm_web\\pages\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B150DE93-37A6-466D-82DD-7E4DD001D467}|CSM_Web\\CSM_Web.csproj|c:\\tuan\\c\u00E1 nh\u00E2n\\project\\csm\\csm_web\\wwwroot\\assets\\css\\csm.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B150DE93-37A6-466D-82DD-7E4DD001D467}|CSM_Web\\CSM_Web.csproj|solutionrelative:csm_web\\wwwroot\\assets\\css\\csm.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,12 +51,51 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Menu_Bottom.cshtml",
+              "DocumentMoniker": "C:\\Tuan\\C\u00E1 nh\u00E2n\\Project\\CSM\\CSM_Web\\Pages\\Menu_Bottom.cshtml",
+              "RelativeDocumentMoniker": "CSM_Web\\Pages\\Menu_Bottom.cshtml",
+              "ToolTip": "C:\\Tuan\\C\u00E1 nh\u00E2n\\Project\\CSM\\CSM_Web\\Pages\\Menu_Bottom.cshtml*",
+              "RelativeToolTip": "CSM_Web\\Pages\\Menu_Bottom.cshtml*",
+              "ViewState": "AQIAAAUBAAAAAAAAAAAqwBYBAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-14T06:02:27.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Tuan\\C\u00E1 nh\u00E2n\\Project\\CSM\\CSM_Web\\Pages\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CSM_Web\\Pages\\_Layout.cshtml",
+              "ToolTip": "C:\\Tuan\\C\u00E1 nh\u00E2n\\Project\\CSM\\CSM_Web\\Pages\\_Layout.cshtml",
+              "RelativeToolTip": "CSM_Web\\Pages\\_Layout.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACEAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-14T05:53:52.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "csm.css",
+              "DocumentMoniker": "C:\\Tuan\\C\u00E1 nh\u00E2n\\Project\\CSM\\CSM_Web\\wwwroot\\assets\\css\\csm.css",
+              "RelativeDocumentMoniker": "CSM_Web\\wwwroot\\assets\\css\\csm.css",
+              "ToolTip": "C:\\Tuan\\C\u00E1 nh\u00E2n\\Project\\CSM\\CSM_Web\\wwwroot\\assets\\css\\csm.css",
+              "RelativeToolTip": "CSM_Web\\wwwroot\\assets\\css\\csm.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-14T05:53:32.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Menu_Top.cshtml",
-              "DocumentMoniker": "C:\\Tuan\\Project\\C#\\CSM\\CSM_Web\\Pages\\Menu_Top.cshtml",
+              "DocumentMoniker": "C:\\Tuan\\C\u00E1 nh\u00E2n\\Project\\CSM\\CSM_Web\\Pages\\Menu_Top.cshtml",
               "RelativeDocumentMoniker": "CSM_Web\\Pages\\Menu_Top.cshtml",
-              "ToolTip": "C:\\Tuan\\Project\\C#\\CSM\\CSM_Web\\Pages\\Menu_Top.cshtml",
+              "ToolTip": "C:\\Tuan\\C\u00E1 nh\u00E2n\\Project\\CSM\\CSM_Web\\Pages\\Menu_Top.cshtml",
               "RelativeToolTip": "CSM_Web\\Pages\\Menu_Top.cshtml",
-              "ViewState": "AQIAAJYAAAAAAAAAAAAAAA4AAAAeAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAF4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-13T18:06:45.328Z",
               "EditorCaption": ""

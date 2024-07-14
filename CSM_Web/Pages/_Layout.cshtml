@@ -13,9 +13,9 @@
 
     <title>@CConfig.Product_Name</title>
 
-    <meta content="TKSolution, TKElog WMS" name="description" />
+    <meta content="Version @CConfig.Product_Version" name="description" />
     <!-- App favicon -->
-    <link rel="shortcut icon" href="/filemanagement/config/favicon.png">
+    <link rel="shortcut icon" href="/filemanagement/config/favicon.ico">
 
     <script src="/assets/js/layout.js"></script>
 
@@ -31,7 +31,7 @@
 </head>
 <body>
     <div id="layout-wrapper">
-        <partial name="Menu_Top" />
+       @*  <partial name="Menu_Top" /> *@
         <partial name="Menu_Bottom" />
 
         <div class="main-content">
@@ -52,8 +52,6 @@
     <script src="/assets/js/plugins.js"></script>
 
     <!-- App js -->
-    <script src="/assets/js/app.js"></script>
-
     <script src="_framework/blazor.server.js"></script>
  
 

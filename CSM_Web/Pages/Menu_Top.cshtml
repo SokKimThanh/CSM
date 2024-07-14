@@ -92,7 +92,6 @@
                     </div>
                 </div>
 
-          
 
                 <div class="dropdown ms-1 topbar-head-dropdown header-item">
                     <span class="form-label-info" id="lblSpeed" style="padding-left: 5px; padding-right: 5px; font-weight: bold; color: white;"></span>
@@ -106,35 +105,35 @@
                         <a href="javascript:Set_Data_Language('vi-VN')" class="dropdown-item notify-item language py-2"
                            title="Tiếng việt">
                             <img src="/assets/images/flags/vn.svg" alt="user-image" class="me-2 rounded" height="18">
-                            <span class="align-middle">Tiếng Việt</span>
+                            <span class="align-middle"> @Get_Data_Field_Language("Tiếng Việt")</span>
                         </a>
 
                         <!-- item-->
                         <a href="javascript:Set_Data_Language('en-US')" class="dropdown-item notify-item language"
                            title="English">
                             <img src="/assets/images/flags/us.svg" alt="user-image" class="me-2 rounded" height="18">
-                            <span class="align-middle">English</span>
+                            <span class="align-middle">@Get_Data_Field_Language("English")</span>
                         </a>
 
                         <!-- item-->
                         <a href="javascript:Set_Data_Language('jp-JA')" class="dropdown-item notify-item language"
                            title="Japanese">
                             <img src="/assets/images/flags/jp.svg" alt="user-image" class="me-2 rounded" height="18">
-                            <span class="align-middle">Japanese</span>
+                            <span class="align-middle">@Get_Data_Field_Language("Japanese")</span>
                         </a>
 
                         <!-- item-->
                         <a href="javascript:Set_Data_Language('ko-KR')" class="dropdown-item notify-item language"
                            title="Korean">
                             <img src="/assets/images/flags/kr.svg" alt="user-image" class="me-2 rounded" height="18">
-                            <span class="align-middle">Korean</span>
+                            <span class="align-middle">@Get_Data_Field_Language("Korean")</span>
                         </a>
 
                         <!-- item-->
                         <a href="javascript:Set_Data_Language('zh-CN')" class="dropdown-item notify-item language"
                            title="Chinese">
                             <img src="/assets/images/flags/china.svg" alt="user-image" class="me-2 rounded" height="18">
-                            <span class="align-middle">Chinese</span>
+                            <span class="align-middle">@Get_Data_Field_Language("Chinese")</span>
                         </a>
                     </div>
                 </div>
@@ -162,16 +161,10 @@
                     <div class="dropdown-menu dropdown-menu-end">
                         <!-- item-->
                         <h6 class="dropdown-header">@Get_Data_Field_Language("Xin chào") Tuấn</h6>
-                        <a class="dropdown-item" href="javascript:window.location.href='/sys/thong_tin_thanh_vien';">
+                        <a class="dropdown-item" href="#">
                             <i class="mdi mdi-account-circle text-muted fs-16 align-middle me-1"></i> <span class="align-middle">@Get_Data_Field_Language("Thông tin tài khoản")</span>
                         </a>
-                        <a class="dropdown-item" href="javascript:window.location.href='/sys/Cau_Hinh_Grid_UI_User?Ma_Dang_Nhap=Tuấn';">
-                            <i class="mdi mdi-account-circle text-muted fs-16 align-middle me-1"></i> <span class="align-middle">@Get_Data_Field_Language("Cấu Hình Grid UI User")</span>
-                        </a>
- 
-
                         <div class="dropdown-divider"></div>
-
                         <a class="dropdown-item" href="javascript:window.location.href='/sys/dang_xuat';">
                             <i class="mdi mdi-logout text-muted fs-16 align-middle me-1"></i> <span class="align-middle" data-key="t-logout">@Get_Data_Field_Language("Đăng xuất")</span>
                         </a>
