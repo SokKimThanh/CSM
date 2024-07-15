@@ -45,6 +45,10 @@ CCache_Common.Is_Load_Cache_Completed = false;
 //Tại đây load cache sys
 CCache_Sys_Thanh_Vien.Load_Thanh_Vien();
 
+//Tạo các đường đẫn mặc định
+if (Directory.Exists(CConfig.Folder_File_Management_Path) == false)
+    Directory.CreateDirectory(CConfig.Folder_File_Management_Path);
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

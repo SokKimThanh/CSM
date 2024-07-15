@@ -9,7 +9,11 @@ namespace CSM_Data_Access.Utility
         public static void Save_Trace_Log(string p_strFunc_Code, string p_strFunction_Name, string p_strDescription, double p_dblTime_Second_Excute)
         {
             DateTime v_dtmNow = DateTime.Now;
-            string p_strFile_Path = Path.Combine(CConfig.Folder_File_Management_Path, "log_txt", $"Log{v_dtmNow:ddMMyyyy}.txt"); // Lưu log 1 ngày
+            string v_strFolder_Path = Path.Combine(CConfig.Folder_File_Management_Path, "log_txt");
+            if (Directory.Exists(v_strFolder_Path) == false)
+                Directory.CreateDirectory(v_strFolder_Path);
+
+            string p_strFile_Path = Path.Combine(v_strFolder_Path, $"Log{v_dtmNow:ddMMyyyy}.txt"); // Lưu log 1 ngày
 
             m_objLog.Reset_Data();
 
