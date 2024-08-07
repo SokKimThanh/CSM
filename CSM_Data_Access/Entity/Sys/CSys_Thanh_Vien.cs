@@ -48,10 +48,6 @@ namespace CSM_Data_Access.Entity.Sys
             {
                 return m_lngAuto_ID;
             }
-            set
-            {
-                m_lngAuto_ID = value;
-            }
         }
 
         public string Ma_Dang_Nhap
